@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Foother = () => {
+const Foother = () => {  // funcion sobre las redes sociales de la pagina
   return (
     <footer id='foother'>
         <Link to={"https://youtu.be/r4iEq-IXqfw?si=fy7ZK7C5YwZK07jQ"}>
@@ -14,7 +14,7 @@ const Foother = () => {
             <img className='foother-iconos' src="https://www.tecnogus.com.co/wp-content/uploads/2022/12/YouTube.jpg" alt="" />
         </Link>
         <Link to={"https://youtu.be/r4iEq-IXqfw?si=fy7ZK7C5YwZK07jQ"}>
-            <img className='foother-iconos' src="https://i.blogs.es/931d00/instagram/1366_521.jpg" alt="" />
+            <img className='foother-iconos' src="https://i.blogs.es/759769/trucosinstagram/1366_2000.jpg" alt="" />
         </Link>
     </footer>
   )
